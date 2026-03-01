@@ -1,0 +1,45 @@
+img {
+    display:block;
+    width: 300px;
+    border: 7px solid orangered;
+    border-radius: 10px;
+    margin:auto;
+}
+
+body {
+    background-color: orange;
+}
+
+h1 {
+    font-family: Cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.dropdown button{
+    background-color: orangered;
+    color:moccasin;
+    padding-block: 10px 10px;
+    border: 3px solid;
+    border-radius: 3px;
+    cursor:pointer;
+}
+.dropdown a{
+    display: black;
+    color:black;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.dropdown .content{
+    display: none;
+    background-color: rgb(243, 225, 242);
+    position: absolute;
+    min-width: 75px;
+    box-shadow: 2px 2px 5px black;
+}
+.dropdown:hover .content{
+    display:block;
+}
+.dropdown:hover button{
+    background-color: rgb(255, 186, 26);
+}
